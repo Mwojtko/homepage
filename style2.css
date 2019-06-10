@@ -1,0 +1,36 @@
+body {
+    background: #659dbd;
+}
+
+.mainHeader {
+    color: #fbeec1;
+    font-size: 25px;
+}
+
+.sectionHeader {
+    color: #fbeec1;
+    font-size: 21px;
+}
+
+.sectionPrimeHeader {
+    color: #fbeec1;
+    font-size: 21px;
+}
+
+.mainPage {
+    color: #8ee4af;
+    font-size: 18px;
+}
+
+.subPage {
+    color: #8ee4af;
+    font-size: 18px;
+}
+
+footer {
+    color:  #c5c6c7;
+}
+
+.text {
+    color: #edf5e1;
+}

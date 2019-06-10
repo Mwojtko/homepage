@@ -1,0 +1,40 @@
+body {
+    background: #1F2833;
+}
+
+.mainHeader {
+    color: rgb(86, 20, 192);
+    font-size: 35px;
+}
+
+.sectionHeader {
+    color: #60706f;
+}
+
+
+footer {
+    color: #c5c6c7;
+}
+
+#Nauka {
+    background: rgb(123, 13, 156);
+}
+
+
+#CoJeszcze {
+    background: cornflowerblue;
+}
+
+.text {
+    color: #faf8f8fd;
+}
+
+.mainPage {
+    font-size: 25px;
+    color: wheat;
+}
+
+#text2 {
+    color: bisque;
+    font-size: 15px;
+}

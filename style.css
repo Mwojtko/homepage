@@ -1,0 +1,23 @@
+body {
+    background: dimgray;
+}
+
+h1 {
+    color: tomato;
+}
+
+h2 {
+    color: palegreen;
+}
+
+h3 {
+    color: palegoldenrod;
+}
+
+p {
+    color: darkblue;
+}
+
+footer {
+    color: thistle;
+}
