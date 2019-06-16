@@ -12,12 +12,12 @@
 
 <body>
 
-    <header>
-        <a href="subpage1.html" class="subPage">Podstrona 1</a>
-        <a href="subpage2.html" class="subPage">Podstrona 2</a>
-        <a href="subpage3.html" class="subPage">Podstrona 3</a>
+    <header class="navigation">
+        <a href="subpage1.html" class="navigation__link">Podstrona 1</a>
+        <a href="subpage2.html" class="navigation__link">Podstrona 2</a>
+        <a href="subpage3.html" class="navigation__link">Podstrona 3</a>
     </header>
-    <main>
+    <main id="top" class="main">
 
         <header>
             <h1 class="mainHeader">
@@ -26,25 +26,30 @@
                 <br>
                 <img src="wojtkowiak-header.jpg" alt="Zdjęcie autora">
                 <br>
-                <br>
-                <a href="#Nauka">Przejdź do: Po co uczę się frontendu?</a>
-                <br>
-                <a href="#Nauka2">Przejdź do: Czego jeszcze się uczę?</a>
-                <br>
-                <a href="#Seriale">Przejdź do: Co oglądam?</a>
-                <br>
-                <a href="#Zmiany">Przejdź do: Czy chciałbym coś zmienić w swoim życiu zawodowym?</a>
-
             </h1>
         </header>
 
-        <section id="Nauka">
-            <h2 class="sectionHeader">
+        <section>
+            <a href="#Nauka">Przejdź do: Po co uczę się frontendu?</a>
+            <br>
+            <a href="#Nauka2">Przejdź do: Czego jeszcze się uczę?</a>
+            <br>
+            <a href="#Seriale">Przejdź do: Co oglądam?</a>
+            <br>
+            <a href="#Zmiany">Przejdź do: Czy chciałbym coś zmienić w swoim życiu zawodowym?</a>
+        </section>
+
+        <section class="about" id="Nauka">
+            <h2 class="about__header">
                 Po co uczę się frontendu?
             </h2>
-            <p class="text">
+            <p class="about__paragraph about__paragraph--color">
                 Jest to podyktowane wpływem emocji, aby zmienić pracę - zacząć coś robić inaczej.<br>
                 Nie wiem, czy zawsze chcę być inżynierem - dlatego się uczę :).
+            </p>
+
+            <p class="about__paragraph about__paragraph--color about__paragraph--js">
+                Testuję modyfikator
             </p>
         </section>
 
@@ -52,7 +57,7 @@
             <h2 class="sectionHeader">
                 Czego jeszcze się uczę?
             </h2>
-            <p class="text">
+            <p class="about__paragraph about__paragraph--color">
                 Uczę się jeszcze języka niemieckiego - co niedzielę mam zajęcia z Mirką.
             </p>
         </section>
@@ -61,18 +66,19 @@
             <h2 class="sectionHeader">
                 Co oglądam?
             </h2>
-            <p class="text">
+            <p class="about__paragraph about__paragraph--color">
                 W ramach nauki niemieckiego, oglądam serial Punisher. <br>
                 Serial przedstawia perypetie Franka Castle.
             </p>
         </section>
 
         <section id="Zmiany">
+            <a href="#top" class="top">Na górę strony</a>
             <h2 class="sectionHeader">
                 Czy chciałbym coś zmienić w swoim życiu zawodowym?
             </h2>
 
-            <p class="text">
+            <p class="about__paragraph about__paragraph--color">
                 Chciałbym wynegocjować jak najlepsze wynagrodzenie.<br>
                 Jeśli się nie uda, będę zmuszony szukać
                 czegoś innego.
@@ -84,9 +90,12 @@
     </main>
 
     <footer>
+
         <h5 class="foot">
             Wszelkie prawa zastrzeżone - Cezar i spółka
         </h5>
+
+        <a href="#top" class="top">Na górę strony</a>
     </footer>
 
     <script src="main2.js">
