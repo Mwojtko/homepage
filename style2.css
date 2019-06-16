@@ -1,67 +1,48 @@
 body {
-    background: #659dbd;
+    background: #E6E6E6;
 }
 
-.mainHeader {
-    color: #fbeec1;
+.header {
+    color: #8C8B8B;
     font-size: 25px;
 }
 
-.sectionHeader {
-    color: #fbeec1;
-    font-size: 21px;
-    padding: 16px;
+.header__pages {
+    color: #8C8B8B;
+    font-size: 20px;
+    padding: 0 0 0 16px;
 }
 
-.sectionPrimeHeader {
-    color: #fbeec1;
-    font-size: 21px;
-}
+.about__header {
+    color:#8C8B8B;
+    font-size: 20px;
+    padding: 0 0 0 16px;
+   }
 
-
-
-
-.navigation__link {
-    color: #8ee4af;
-    font-size: 18px;
-    text-decoration: none;
-}
-
-footer {
-    color:  #c5c6c7;
-    padding: 10px 16px;
+.about__paragraph {
+    color: #474645; 
+    padding: 5px 0 0 16px;
+    font-size: 17px;
 }
 
 
-
-
-
-.main {
-    width: 100%;
-    max-width: 670px;
-    margin: 40px auto;
-    padding-top: 53px;
+.img__greek {
+    width:100%;
+    max-width: 600px;
+    display:block;
 }
 
-.box{
-    width: 100px;
-    height:100px;
-    background: yellowgreen;
-    padding: 10px;
-    border: 10px solid red;
-    box-sizing: border-box;
-    position: sticky;
-    top: 0px;
-    
-} 
+.img__lorem {
+    width:100%;
+    max-width: 800px;
+    display:block;
+}
 
-
-
-.top {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    text-decoration: none;
+.img__car {
+    width:100%;
+    max-width: 500px;
+    display:block; 
+    padding-left: 50px;
 }
 
 .navigation {
@@ -71,27 +52,48 @@ footer {
     left:0px;
     box-sizing: border-box;
     padding: 16px; 
-    background: #fff;
-    
+    background: #D2D2D2; 
 }
 
-.grecja {
-    width:100%;
-    max-width: 700px;
-    display:block;
-    float: top;
-}
-
-.about__header {
- color:blue;
-}
-
-.about__paragraph {
-    color: black; 
-    padding: 16px 0 0 16px;
+.navigation__link {
+    color: #75B9BE;
     font-size: 20px;
+    text-decoration: underline;
 }
 
-.about__paragraph--color {
-    color: #048BA8;
+footer {
+    color:  #c5c6c7;
+    padding: 10px 50px;
+    width: 100%;
+    max-width: 300px;
+    margin: 40px auto;
 }
+
+.main {
+    width: 100%;
+    max-width: 670px;
+    margin: 40px auto;
+    padding-top: 53px;
+}
+
+.top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #75B9BE;
+}
+
+.navigation__link--font {
+    font-size: 18px;
+    color: rgb(33, 85, 88);
+}
+
+
+
+
+
+
+
+

@@ -17,10 +17,11 @@
         <a href="subpage2.html" class="navigation__link">Podstrona 2</a>
         <a href="subpage3.html" class="navigation__link">Podstrona 3</a>
     </header>
+
     <main id="top" class="main">
 
         <header>
-            <h1 class="mainHeader">
+            <h1 class="header">
                 Mikołaj Wojtkowiak - kolejne wpisy podczas nauki HTML, CSS i JavaScript - dołożone do GitHub
                 <br>
                 <br>
@@ -30,14 +31,17 @@
         </header>
 
         <section>
-            <a href="#Nauka">Przejdź do: Po co uczę się frontendu?</a>
+            <a href="#Nauka" class="navigation__link navigation__link--font">Przejdź do: Po co uczę się frontendu?</a>
             <br>
-            <a href="#Nauka2">Przejdź do: Czego jeszcze się uczę?</a>
+            <a href="#Nauka2" class="navigation__link navigation__link--font">Przejdź do: Czego jeszcze się uczę?</a>
             <br>
-            <a href="#Seriale">Przejdź do: Co oglądam?</a>
+            <a href="#Seriale" class="navigation__link navigation__link--font">Przejdź do: Co oglądam?</a>
             <br>
-            <a href="#Zmiany">Przejdź do: Czy chciałbym coś zmienić w swoim życiu zawodowym?</a>
+            <a href="#Zmiany" class="navigation__link navigation__link--font">Przejdź do: Czy chciałbym coś zmienić w swoim życiu zawodowym?</a>
+            <br>
+            <br>
         </section>
+
 
         <section class="about" id="Nauka">
             <h2 class="about__header">
@@ -53,8 +57,8 @@
             </p>
         </section>
 
-        <section id="Nauka2">
-            <h2 class="sectionHeader">
+        <section class="about" id="Nauka2">
+            <h2 class="about__header">
                 Czego jeszcze się uczę?
             </h2>
             <p class="about__paragraph about__paragraph--color">
@@ -62,8 +66,8 @@
             </p>
         </section>
 
-        <section id="Seriale">
-            <h2 class="sectionHeader">
+        <section class="about" id="Seriale">
+            <h2 class="about__header">
                 Co oglądam?
             </h2>
             <p class="about__paragraph about__paragraph--color">
@@ -72,9 +76,8 @@
             </p>
         </section>
 
-        <section id="Zmiany">
-            <a href="#top" class="top">Na górę strony</a>
-            <h2 class="sectionHeader">
+        <section class="about" id="Zmiany">
+            <h2 class="about__header">
                 Czy chciałbym coś zmienić w swoim życiu zawodowym?
             </h2>
 
@@ -95,7 +98,7 @@
             Wszelkie prawa zastrzeżone - Cezar i spółka
         </h5>
 
-        <a href="#top" class="top">Na górę strony</a>
+        <a href="#top" class="top">&#8593</a>
     </footer>
 
     <script src="main2.js">
