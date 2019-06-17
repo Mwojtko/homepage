@@ -5,9 +5,21 @@ const age=26;
 console.log(`Pozdrawiam serdecznie ${name} w wieku ${age}`);
 
 const about = document.querySelector(`.about__paragraph--js`);
+if (about) 
+{ 
 console.log(about.innerHTML);
+about.innerHTML = ('Pozdrawia JavaScript!'); 
+}
 
-about.innerHTML = ('Pozdro JS');
+
+const description = document.querySelector(`.about__paragraph--js2`);
+if (description) 
+{ 
+console.log(description.innerHTML);
+description.innerHTML = (`Tutaj też pozdrawia JavaScript!`); 
+}
+
+
 
 const paragraphs = document.querySelectorAll(`p`);
 console.log(paragraphs);
