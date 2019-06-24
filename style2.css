@@ -7,10 +7,7 @@ html{
 }
 
 body {
-    background-image: url('../img/19098.jpg');
-    min-height: 100vh;
-    background-position: center center;
-    background-attachment: fixed; 
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(145,145,158,1) 43%, rgba(145,140,161,1) 88%); 
 }
 
 .header {
