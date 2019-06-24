@@ -5,17 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Homepage</title>
 
     <link href="style2.css" rel="stylesheet" type="text/css">
+    <link href="normalize.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 
-    <header class="navigation">
-        <a href="subpage1.html" class="navigation__link">Podstrona 1</a>
-        <a href="subpage2.html" class="navigation__link">Podstrona 2</a>
-        <a href="subpage3.html" class="navigation__link">Podstrona 3</a>
+    <header class="site-header">
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="subpage1.html" class="navigation__link">Podstrona 1</a></li>
+                <li class="navigation__item"><a href="subpage2.html" class="navigation__link">Podstrona 2</a></li>
+                <li class="navigation__item"><a href="subpage3.html" class="navigation__link">Podstrona 3</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main id="top" class="main">
@@ -55,6 +60,26 @@
             <p class="about__paragraph about__paragraph--color about__paragraph--js">
                 Test zmiany tekstu
             </p>
+
+            <section class="hobby">
+                <h2 class="about__header">Moje hobby</h2>
+                <ul class="hobby__list">
+                    <li>Wykonywanie szkolenia</li>
+                    <li>Nauka niemieckiego</li>
+                    <li>PS4</li>
+                    <li>Samochody</li>
+                </ul>
+            </section>
+
+            <section class="plan">
+                    <h2 class="about__header">Moje plany</h2>
+                    <ol>
+                        <li>Wykonywanie szkolenia</li>
+                        <li>Nauka niemieckiego</li>
+                        <li>PS4</li>
+                        <li>Samochody</li>
+                    </ol>
+                </section>
         </section>
 
         <section class="about" id="Nauka2">
@@ -90,6 +115,45 @@
 
         </section>
 
+        <section class="glossary">
+            <h2 class="glossary__header">Glosariusz</h2>
+
+            <dl>
+                <dt>CSS</dt>
+                <dd>Style (to co widzisz jak jest ładne)</dd>
+                <dt>HTML</dt>
+                <dd>Szkielet strony + treść strony</dd>
+                <dt>JavaScript</dt>
+                <dt>ES6</dt>
+                <dd>Rzeczy, których teraz się uczę</dd>
+            </dl>
+        </section>
+
+        <section class="data">
+            <h2 class="data__header">Tabela</h2>
+            <table class="table">
+                <caption>Opis z I semestru WTF</caption>
+                <thead>
+                <tr>
+                    <th>Imię nazwisko</th>
+                    <th>Ocena</th>
+                    <th>Data</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mikołaj Wojtkowiak</td>
+                        <td> 5+</td>
+                        <td>2019-06-21</td>
+                    </tr>
+                    <tr>
+                        <td>Uczeń Uczniowski</td>
+                         <td> 4+</td>
+                         <td>2019-06-21</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     </main>
 
     <footer>

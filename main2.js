@@ -21,9 +21,22 @@ description.innerHTML = (`Tutaj też pozdrawia JavaScript!`);
 
 
 
-const paragraphs = document.querySelectorAll(`p`);
-console.log(paragraphs);
+function welcome (age, name) {
+    if (age<26) {
+        console.log(`${name} Jesteś młodszy ode mnie!`)
+    } if (age>26) {
+        console.log(`${name} Jesteś starszy ode mnie!`)
+    } if (age==26) {
+        console.log(` ${name} Jesteś w moim wieku!`)
+    }
+}
 
-console.log(paragraphs[3]);
+
+
+
+
+
+
+
 
 
