@@ -70,10 +70,6 @@ body {
     box-sizing: border-box;
     padding: 16px; 
     background: #E6E6E6; 
-    display: flex;
-    align-items: center;
-    justify-content: center
-    
 }
 
 .navigation {
@@ -83,10 +79,14 @@ body {
 .navigation__list {
     list-style: none;
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
 .navigation__item {
-    display: inline;
+    display: block;
+    margin: 0 16px;
 }
 
 .navigation__link {
@@ -145,6 +145,13 @@ footer {
 }
 
 
+
+
+
+
+@media (min-width: 1000px) {
+    max-width: 900px;
+}
 
 
 

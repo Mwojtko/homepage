@@ -26,13 +26,17 @@
     <main id="top" class="main">
 
         <header>
-            <h1 class="header">
+            <h1 class="header header--js">
                 Mikołaj Wojtkowiak - kolejne wpisy podczas nauki HTML, CSS i JavaScript - dołożone do GitHub
                 <br>
-                <br>
-                <img src="wojtkowiak-header.jpg" alt="Zdjęcie autora" class="img__author">
-                <br>
+                <button class="header__button header__button--js">
+                    Zmień treść nagłówka
+                </button>
             </h1>
+            <br>
+            <br>
+            <img src="wojtkowiak-header.jpg" alt="Zdjęcie autora" class="img__author">
+            <br>
         </header>
 
         <section>
@@ -42,36 +46,37 @@
             <br>
             <a href="#Seriale" class="navigation__link navigation__link--font">Przejdź do: Co oglądam?</a>
             <br>
-            <a href="#Zmiany" class="navigation__link navigation__link--font">Przejdź do: Czy chciałbym coś zmienić w swoim życiu zawodowym?</a>
+            <a href="#Zmiany" class="navigation__link navigation__link--font">Przejdź do: Czy chciałbym coś zmienić w
+                swoim życiu zawodowym?</a>
             <br>
             <br>
         </section>
 
+        <div class="grid">
+            <section class="about" id="Nauka">
+                <h2 class="about__header">
+                    Po co uczę się frontendu?
+                </h2>
+                <p class="about__paragraph about__paragraph--color">
+                    Jest to podyktowane wpływem emocji, aby zmienić pracę - zacząć coś robić inaczej.<br>
+                    Nie wiem, czy zawsze chcę być inżynierem - dlatego się uczę :).
+                </p>
 
-        <section class="about" id="Nauka">
-            <h2 class="about__header">
-                Po co uczę się frontendu?
-            </h2>
-            <p class="about__paragraph about__paragraph--color">
-                Jest to podyktowane wpływem emocji, aby zmienić pracę - zacząć coś robić inaczej.<br>
-                Nie wiem, czy zawsze chcę być inżynierem - dlatego się uczę :).
-            </p>
+                <p class="about__paragraph about__paragraph--color about__paragraph--js">
+                    Test zmiany tekstu
+                </p>
 
-            <p class="about__paragraph about__paragraph--color about__paragraph--js">
-                Test zmiany tekstu
-            </p>
+                <section class="hobby">
+                    <h2 class="about__header">Moje hobby</h2>
+                    <ul class="hobby__list">
+                        <li>Wykonywanie szkolenia</li>
+                        <li>Nauka niemieckiego</li>
+                        <li>PS4</li>
+                        <li>Samochody</li>
+                    </ul>
+                </section>
 
-            <section class="hobby">
-                <h2 class="about__header">Moje hobby</h2>
-                <ul class="hobby__list">
-                    <li>Wykonywanie szkolenia</li>
-                    <li>Nauka niemieckiego</li>
-                    <li>PS4</li>
-                    <li>Samochody</li>
-                </ul>
-            </section>
-
-            <section class="plan">
+                <section class="plan">
                     <h2 class="about__header">Moje plany</h2>
                     <ol>
                         <li>Wykonywanie szkolenia</li>
@@ -80,40 +85,41 @@
                         <li>Samochody</li>
                     </ol>
                 </section>
-        </section>
+            </section>
 
-        <section class="about" id="Nauka2">
-            <h2 class="about__header">
-                Czego jeszcze się uczę?
-            </h2>
-            <p class="about__paragraph about__paragraph--color">
-                Uczę się jeszcze języka niemieckiego - co niedzielę mam zajęcia z Mirką.
-            </p>
-        </section>
+            <section class="about" id="Nauka2">
+                <h2 class="about__header">
+                    Czego jeszcze się uczę?
+                </h2>
+                <p class="about__paragraph about__paragraph--color">
+                    Uczę się jeszcze języka niemieckiego - co niedzielę mam zajęcia z Mirką.
+                </p>
+            </section>
 
-        <section class="about" id="Seriale">
-            <h2 class="about__header">
-                Co oglądam?
-            </h2>
-            <p class="about__paragraph about__paragraph--color">
-                W ramach nauki niemieckiego, oglądam serial Punisher. <br>
-                Serial przedstawia perypetie Franka Castle.
-            </p>
-        </section>
+            <section class="about" id="Seriale">
+                <h2 class="about__header">
+                    Co oglądam?
+                </h2>
+                <p class="about__paragraph about__paragraph--color">
+                    W ramach nauki niemieckiego, oglądam serial Punisher. <br>
+                    Serial przedstawia perypetie Franka Castle.
+                </p>
+            </section>
 
-        <section class="about" id="Zmiany">
-            <h2 class="about__header">
-                Czy chciałbym coś zmienić w swoim życiu zawodowym?
-            </h2>
+            <section class="about" id="Zmiany">
+                <h2 class="about__header">
+                    Czy chciałbym coś zmienić w swoim życiu zawodowym?
+                </h2>
 
-            <p class="about__paragraph about__paragraph--color">
-                Chciałbym wynegocjować jak najlepsze wynagrodzenie.<br>
-                Jeśli się nie uda, będę zmuszony szukać
-                czegoś innego.
-                Może w przyszłości frontend?
-            </p>
+                <p class="about__paragraph about__paragraph--color">
+                    Chciałbym wynegocjować jak najlepsze wynagrodzenie.<br>
+                    Jeśli się nie uda, będę zmuszony szukać
+                    czegoś innego.
+                    Może w przyszłości frontend?
+                </p>
 
-        </section>
+            </section>
+        </div>
 
         <section class="glossary">
             <h2 class="glossary__header">Glosariusz</h2>
@@ -134,11 +140,11 @@
             <table class="table">
                 <caption>Opis z I semestru WTF</caption>
                 <thead>
-                <tr>
-                    <th>Imię nazwisko</th>
-                    <th>Ocena</th>
-                    <th>Data</th>
-                </tr>
+                    <tr>
+                        <th>Imię nazwisko</th>
+                        <th>Ocena</th>
+                        <th>Data</th>
+                    </tr>
                 </thead>
                 <tbody>
                     <tr>
@@ -148,8 +154,8 @@
                     </tr>
                     <tr>
                         <td>Uczeń Uczniowski</td>
-                         <td> 4+</td>
-                         <td>2019-06-21</td>
+                        <td> 4+</td>
+                        <td>2019-06-21</td>
                     </tr>
                 </tbody>
             </table>
