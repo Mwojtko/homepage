@@ -57,7 +57,19 @@ const button = document.querySelector('.header__button--js'); //Tutaj powiązano
 
 button.addEventListener('click', (e) => {                   //"Nasłuchuje" co ma się zmienic". Użycie funkcji Fat Arrow
     const header = document.querySelector('.header--js');     //Tutaj jest odwołanie do zmienianego nagłówka
-    header.innerHTML = 'klik, klik!';          //Tutaj podmienia tekst
+    header.innerHTML = 'klik, klik!';  //Tutaj podmienia tekst
+    header.classList.toggle('header--red');        //Zmienia kolor podmienionego tekstu
+});
+
+
+//Dokładanie przycisku "Hamburger Menu"
+
+const navigationSwitcher = document.querySelector('.navigation__switcher--js')
+
+navigationSwitcher.addEventListener('click', (e) => {
+    const navigationList = document.querySelector('.navigation__list--js');
+    navigationList.classList.toggle('navigation__list--visible'); //po kliknięciu w przycisk, wyswietla nawigację
+                                                                    //navigation__list--visible jest tylko zdefiniowane w .css nie w html, bo dotyczy wyswietlania tylko w wersji mobilnej.
 });
 
 
