@@ -55,11 +55,11 @@ const button = document.querySelector('.header__button--js'); //Tutaj powiązano
 
 //Tu już właściwa funkcja wykonująca funkcję zamiany tekstu poprzez kliknięcie
 
-button.addEventListener('click', (e) => {                   //"Nasłuchuje" co ma się zmienic". Użycie funkcji Fat Arrow
-    const header = document.querySelector('.header--js');     //Tutaj jest odwołanie do zmienianego nagłówka
-    header.innerHTML = 'klik, klik!';  //Tutaj podmienia tekst
-    header.classList.toggle('header--red');        //Zmienia kolor podmienionego tekstu
-});
+//button.addEventListener('click', (e) => {                   //"Nasłuchuje" co ma się zmienic". Użycie funkcji Fat Arrow
+    //const header = document.querySelector('.header--js');     //Tutaj jest odwołanie do zmienianego nagłówka
+    //header.innerHTML = 'klik, klik!';  //Tutaj podmienia tekst
+   // header.classList.toggle('header--red');        //Zmienia kolor podmienionego tekstu
+//});
 
 
 //Dokładanie przycisku "Hamburger Menu"

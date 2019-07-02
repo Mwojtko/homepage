@@ -13,167 +13,95 @@
 
 <body>
 
-    <header class="site-header">
-        <nav class="navigation">
-            <ul class="navigation__list navigation__list--js">
-                <li class="navigation__item"><a href="subpage1.html" class="navigation__link">Podstrona 1</a></li>
-                <li class="navigation__item"><a href="subpage2.html" class="navigation__link">Podstrona 2</a></li>
-                <li class="navigation__item"><a href="subpage3.html" class="navigation__link">Podstrona 3</a></li>
-            </ul>
-        </nav>
-        <button class="navigation__switcher navigation__switcher--js" aria-label="Open the menu">≡</button>
-    </header>
+    <main id="top" class="grid">
 
-    <main id="top" class="main">
-
-        <header>
-            <h1 class="header header--js">
-                Mikołaj Wojtkowiak - kolejne wpisy podczas nauki HTML, CSS i JavaScript - dołożone do GitHub
-                <br>
-            </h1>
-            <button class="header__button header__button--js">
-                Zmień treść nagłówka
-            </button>
-            <br>
-            <br>
-            <img src="wojtkowiak-header.jpg" alt="Zdjęcie autora" class="img__author">
-            <br>
+        <header class="site-header">
+            <nav class="navigation">
+                <ul class="navigation__list navigation__list--js">
+                    <li class="navigation__item"><a href="subpage1.html" class="navigation__link">Podstrona 1</a></li>
+                    <li class="navigation__item"><a href="subpage2.html" class="navigation__link">Podstrona 2</a></li>
+                    <li class="navigation__item"><a href="subpage3.html" class="navigation__link">Podstrona 3</a></li>
+                </ul>
+            </nav>
+            <button class="navigation__switcher navigation__switcher--js" aria-label="Open the menu">≡</button>
+        </header>
+        
+        <header class="header">
+            <h1>Mikołaj Wojtkowiak - Strona główna</h1>
         </header>
 
-        <section>
-            <a href="#Nauka" class="navigation__link navigation__link--font">Przejdź do: Po co uczę się frontendu?</a>
+        <section class="author">
+            <img src="wojtkowiak-header.jpg" alt="Zdjęcie autora" class="author__img">
+        </section>
+
+        <section class="navHome">
+            <a href="#Nauka" class="navHome__page">Przejdź do: Po co uczę się frontendu?</a>
             <br>
-            <a href="#Nauka2" class="navigation__link navigation__link--font">Przejdź do: Czego jeszcze się uczę?</a>
+            <a href="#Nauka2" class="navHome__page">Przejdź do: Czego jeszcze się uczę?</a>
             <br>
-            <a href="#Seriale" class="navigation__link navigation__link--font">Przejdź do: Co oglądam?</a>
+            <a href="#Seriale" class="navHome__page">Przejdź do: Co oglądam?</a>
             <br>
-            <a href="#Zmiany" class="navigation__link navigation__link--font">Przejdź do: Czy chciałbym coś zmienić w
+            <a href="#Zmiany" class="navHome__page">Przejdź do: Czy chciałbym coś zmienić w
                 swoim życiu zawodowym?</a>
-            <br>
-            <br>
         </section>
 
-        <div class="grid">
-            <section class="about" id="Nauka">
-                <h2 class="about__header">
-                    Po co uczę się frontendu?
-                </h2>
-                <p class="about__paragraph about__paragraph--color">
-                    Jest to podyktowane wpływem emocji, aby zmienić pracę - zacząć coś robić inaczej.<br>
-                    Nie wiem, czy zawsze chcę być inżynierem - dlatego się uczę :).
-                </p>
 
-                <p class="about__paragraph about__paragraph--color about__paragraph--js">
-                    Test zmiany tekstu
-                </p>
+        <section class="learning" id="Nauka">
+            <h2 class="about__header">
+                Po co uczę się frontendu?
+            </h2>
+            <p class="about__paragraph">
+                Jest to podyktowane wpływem emocji, aby zmienić pracę - zacząć coś robić inaczej.<br>
+                Nie wiem, czy zawsze chcę być inżynierem - dlatego się uczę :).
+            </p>
 
-                <section class="hobby">
-                    <h2 class="about__header">Moje hobby</h2>
-                    <ul class="hobby__list">
-                        <li>Wykonywanie szkolenia</li>
-                        <li>Nauka niemieckiego</li>
-                        <li>PS4</li>
-                        <li>Samochody</li>
-                    </ul>
-                </section>
-
-                <section class="plan">
-                    <h2 class="about__header">Moje plany</h2>
-                    <ol>
-                        <li>Wykonywanie szkolenia</li>
-                        <li>Nauka niemieckiego</li>
-                        <li>PS4</li>
-                        <li>Samochody</li>
-                    </ol>
-                </section>
-            </section>
-
-            <section class="about" id="Nauka2">
-                <h2 class="about__header">
-                    Czego jeszcze się uczę?
-                </h2>
-                <p class="about__paragraph about__paragraph--color">
-                    Uczę się jeszcze języka niemieckiego - co niedzielę mam zajęcia z Mirką.
-                </p>
-            </section>
-
-            <section class="about" id="Seriale">
-                <h2 class="about__header">
-                    Co oglądam?
-                </h2>
-                <p class="about__paragraph about__paragraph--color">
-                    W ramach nauki niemieckiego, oglądam serial Punisher. <br>
-                    Serial przedstawia perypetie Franka Castle.
-                </p>
-            </section>
-
-            <section class="about" id="Zmiany">
-                <h2 class="about__header">
-                    Czy chciałbym coś zmienić w swoim życiu zawodowym?
-                </h2>
-
-                <p class="about__paragraph about__paragraph--color">
-                    Chciałbym wynegocjować jak najlepsze wynagrodzenie.<br>
-                    Jeśli się nie uda, będę zmuszony szukać
-                    czegoś innego.
-                    Może w przyszłości frontend?
-                </p>
-
-            </section>
-        </div>
-
-        <section class="glossary">
-            <h2 class="glossary__header">Glosariusz</h2>
-
-            <dl>
-                <dt>CSS</dt>
-                <dd>Style (to co widzisz jak jest ładne)</dd>
-                <dt>HTML</dt>
-                <dd>Szkielet strony + treść strony</dd>
-                <dt>JavaScript</dt>
-                <dt>ES6</dt>
-                <dd>Rzeczy, których teraz się uczę</dd>
-            </dl>
         </section>
 
-        <section class="data">
-            <h2 class="data__header">Tabela</h2>
-            <table class="table">
-                <caption>Opis z I semestru WTF</caption>
-                <thead>
-                    <tr>
-                        <th>Imię nazwisko</th>
-                        <th>Ocena</th>
-                        <th>Data</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Mikołaj Wojtkowiak</td>
-                        <td> 5+</td>
-                        <td>2019-06-21</td>
-                    </tr>
-                    <tr>
-                        <td>Uczeń Uczniowski</td>
-                        <td> 4+</td>
-                        <td>2019-06-21</td>
-                    </tr>
-                </tbody>
-            </table>
+        <section class="learning2" id="Nauka2">
+            <h2 class="about__header">
+                Czego jeszcze się uczę?
+            </h2>
+            <p class="about__paragraph about__paragraph--color">
+                Uczę się jeszcze języka niemieckiego.
+            </p>
         </section>
+
+        <section class="tvshow" id="Seriale">
+            <h2 class="about__header">
+                Co oglądam?
+            </h2>
+            <p class="about__paragraph about__paragraph--color">
+                W ramach nauki niemieckiego, oglądam serial Punisher. <br>
+                Serial przedstawia perypetie Franka Castle.
+            </p>
+        </section>
+
+        <section class="changes" id="Zmiany">
+            <h2 class="about__header">
+                Czy chciałbym coś zmienić w swoim życiu zawodowym?
+            </h2>
+
+            <p class="about__paragraph about__paragraph--color">
+                Poznać pracę Frontend Developera oczywiście ;) A wcześnie wdrożyć dwa porjekty, które już są na końcu wdrażania ;)
+            </p>
+
+        </section>
+
+        <footer class="foot">
+            Treści stworzone w ramach kursu "WTF - Co ten frontend"
+            <a href="#top" class="top">&#8593</a>
+        </footer>
+
+    
+
     </main>
 
-    <footer>
 
-        <h5 class="foot">
-            Wszelkie prawa zastrzeżone - Cezar i spółka
-        </h5>
-
-        <a href="#top" class="top">&#8593</a>
-    </footer>
 
     <script src="main2.js">
     </script>
+
+
 
 </body>
 
